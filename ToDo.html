@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            ToDo List
+        </title>
+        <link rel="stylesheet" href="ToDo.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <div>
+            <p id="heading">ToDo List</p>
+            <main>
+                <div class="flex-container">
+                    <div id="flex-item1">
+                        <div id="flexButtons">
+                            <div>
+                                <button type="button" class="add" onclick="addTextArea()">Add Task</button>
+                            </div>
+                            <div>
+                                <button type="button" class="view" onclick="viewAllTasks()">View Task</button>
+                            </div>
+                            <div>
+                                <button type="button" class="delete" onclick="deleteAllTasks()">Delete All Tasks</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="flex-item2">
+                        <button class="homeButton" onclick="gotoHome()"><i class="fa fa-home" style="font-size: 48px; color: chocolate;"></i></button>
+
+                        <div id="home">
+                            <div class="notes1"><p style="text-align: center; font-family: cursive; color: azure;">Notes</p></div>
+                            <div class="notes2"><p style="text-align: center; font-family: cursive; color: azure;">To-Do</p></div>
+                            <div class="notes3"><p style="text-align: center; font-family: cursive; color: azure;">Tomorrow's task</p></div>
+                            <div class="notes4"><p style="text-align: center; font-family: cursive; color: azure;">Office work</p></div>
+                            <div class="notes5"><p style="text-align: center; font-family: cursive; color: azure;">Travel</p></div>
+                            <div class="notes6"><p style="text-align: center; font-family: cursive; color: azure;">Money spent</p></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <script src="ToDo.js"></script>
+    </body>
+</html>

@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background-image.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+#heading {
+    text-align: center;
+    margin: 0;
+    color: green;
+    margin-top: 20px;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.flex-container {
+    width: 1200px;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#flex-item1,
+#flex-item2 {
+    width: 500px;
+    height: 650px;
+    background-color: beige;
+    border-radius: 30px;
+}
+#flex-item2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#flexButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 600px;
+    align-items: center;
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    font-family: system-ui;
+    font-size: large;
+    background-color: antiquewhite;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+textarea {
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    resize: none;
+    line-height: 2;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: large;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: -webkit-fill-available;
+    height: 40px;
+}
+td {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+td:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+#home {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 400px;
+    height: 500px;
+}
+
+.notes1 {
+    background-color: pink;
+    width: 120px;
+    height: 145px;
+    transform: translate(30%, 10%) rotate(-25deg);
+}
+
+.notes2 {
+    background-color: coral;
+    width: 120px;
+    height: 145px;
+    transform: translate(20%, 10%) rotate(25deg);
+}
+
+.notes3 {
+    background-color: cadetblue;
+    width: 120px;
+    height: 145px;
+    transform: translate(30%, 5%) rotate(30deg);
+}
+
+.notes4 {
+    background-color: darkkhaki;
+    width: 120px;
+    height: 145px;
+    transform: translate(20%, 5%) rotate(-25deg);
+}
+
+.notes5 {
+    background-color: burlywood;
+    width: 120px;
+    height: 145px;
+    transform: translate(30%, 0%) rotate(-25deg);
+}
+
+.notes6 {
+    background-color: thistle;
+    width: 120px;
+    height: 145px;
+    transform: translate(20%, 0%) rotate(25deg);
+}
+
+.homeButton {
+    width: fit-content;
+    border: none;
+    background-color: unset;
+    margin: 10px;
+}
+
+.add {
+    background-color: cadetblue;
+    color: white;
+    border-color: cadetblue;
+}
+
+.view {
+    background-color: darkkhaki;
+    color: white;
+    border-color: darkkhaki;
+}
+
+.update {
+    background-color: darkkhaki;
+    color: white;
+    border: 1px solid darkkhaki;
+}
+
+.delete {
+    background-color: coral;
+    color: white;
+    border-color: coral;
+}
+
+.back {
+    background-color: grey;
+    color: white;
+    border: 1px solid darkgray;
+}
