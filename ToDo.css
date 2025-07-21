@@ -5,7 +5,8 @@
 body {
     background-image: url(background-image.jpg);
     display: flex;
-    justify-content: center;
+	flex-direction: column;
+    align-items: center;
 }
 
 #heading {
@@ -19,7 +20,7 @@ body {
 
 .flex-container {
     width: 1200px;
-    height: 1000px;
+    height: 800px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -177,4 +178,12 @@ td:hover {
     background-color: grey;
     color: white;
     border: 1px solid darkgray;
+}
+
+footer
+{
+	width: 100%;
+	text-align: center;
+	font-size: large;
+	font-family: system-ui;
 }
